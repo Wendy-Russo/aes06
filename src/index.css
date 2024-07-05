@@ -5,9 +5,153 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color:hsl(0,0%,100%);
+  min-height: 100vh;
+  max-width: 100vh;
+  overflow: hidden scroll;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+p{
+  margin-bottom: 0;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.App {
+  text-align: center;
+  min-height: 100%;
+  width: 100%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+ul{
+  color: aqua;
+}
+*{
+  text-decoration: none;
+  list-style: none;
+}
+
+.cardTitle{
+  white-space:pre-line;
+  font-size: 2rem;
+  font-weight: bolder;
+  padding: 0;
+  margin: 1rem 0 0;
+}
+
+.cardSubTitle{
+  font-size: 1rem;
+  padding: 0;
+  margin: 0;
+}
+
+.cardButton{
+  background-color: transparent;
+  border-radius: 500px;
+  margin: 4rem 0 0;
+  font-size: 1rem;
+  padding: .5rem 1rem;
+}
+
+.menuItemBig{
+  flex: 1;
+  height: 4rem;
+  min-width: 7rem;
+  color: #347791 ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menuItem{
+  height: 4rem;
+  flex:1;
+  min-width: 4rem;
+  color: #347791 ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-blue{
+  color: #347791 !important ;
+}
+.text-lblue{
+  color: #46B0D1 !important ;
+}
+
+.nav-link, .nav-item, .dropdown-item{
+  color:#347791 !important;
+  display: flex;
+  align-items: center;
+}
+
+.bg-lblue{
+  background-color: #46B0D1;
+}
+
+.bg-blue{
+  background-color: #347791;
+}
+
+.bg-dblue{
+  background-color: #325A70;
+}
+
+.link-active{
+  background-color: #347791;
+}
+
+.bg-green{
+  background-color: #3E932A;
+}
+
+.partner-logo{
+  height: 2rem;
+}
+
+.qualificationCard{
+  min-width: 12rem;
+}
+
+.bottomQual{
+  position: relative;
+  top:-1rem
+}
+
+.footerTitle{
+  font-weight: 900;
+  margin-top: 1rem;
+}
+
+.footerItem{
+  color: hsla(0,0%,100%,0.6);
 }
