@@ -41,7 +41,7 @@ function Map({
           & AESFLASH
         </h3>
         <p
-          className="text-lblue"
+          className="text-lblue border-top border-3 "
         >
           A 10MIN DE L'AUTOROUTE
         </p>
