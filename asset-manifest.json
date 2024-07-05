@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/aes06/static/css/main.1de94a2e.css",
-    "main.js": "/aes06/static/js/main.d261ade9.js",
+    "main.js": "/aes06/static/js/main.ed612108.js",
     "static/js/453.325cac95.chunk.js": "/aes06/static/js/453.325cac95.chunk.js",
     "static/media/aes06_transition_energetique_partenariat_bornes_de_recharge_alpes_maritimes.jpg": "/aes06/static/media/aes06_transition_energetique_partenariat_bornes_de_recharge_alpes_maritimes.6fa388e58c6c846e2971.jpg",
     "static/media/aes06_informations_installation_copropriete_bornes_de_recharge_alpes_maritimes.jpg": "/aes06/static/media/aes06_informations_installation_copropriete_bornes_de_recharge_alpes_maritimes.a0674c30772f25e4cd5b.jpg",
@@ -36,11 +36,11 @@
     "static/media/jost-cyrillic-400-normal.woff2": "/aes06/static/media/jost-cyrillic-400-normal.28b1f11ed728364dd6ac.woff2",
     "index.html": "/aes06/index.html",
     "main.1de94a2e.css.map": "/aes06/static/css/main.1de94a2e.css.map",
-    "main.d261ade9.js.map": "/aes06/static/js/main.d261ade9.js.map",
+    "main.ed612108.js.map": "/aes06/static/js/main.ed612108.js.map",
     "453.325cac95.chunk.js.map": "/aes06/static/js/453.325cac95.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1de94a2e.css",
-    "static/js/main.d261ade9.js"
+    "static/js/main.ed612108.js"
   ]
 }
