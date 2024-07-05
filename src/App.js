@@ -113,39 +113,44 @@ function App() {
         imageID={6}
       />
       <section
-        style={{
-          display:"flex",
-          padding:"3rem",
-          flexWrap:"wrap",
-          gap:"1rem"
-        }}
       >
-        <Card
-          useShadow={true}
-          innerPadding="1rem"
-          title={`
-            ELECTRICITE
-            GENERALE
-          `}
-          imageID={7}
-        />
-        <Card
-          useShadow={true}
-          innerPadding="1rem"
-          title={`
-            SECURITE
-            & DOMOTIQUE
-          `}
-          imageID={8}
-        />
-        <Card
-          useShadow={true}
-          innerPadding="1rem"
-          title={`
-            DEPANNAGE
-          `}
-          imageID={9}
-        />
+        <a
+          style={{
+            display:"flex",
+            padding:"3rem",
+            flexWrap:"wrap",
+            gap:"1rem",
+            textDecoration:"none"
+          }}
+          href="https://www.aes06.com/"
+        >
+          <Card
+            useShadow={true}
+            innerPadding="1rem"
+            title={`
+              ELECTRICITE
+              GENERALE
+            `}
+            imageID={7}
+          />
+          <Card
+            useShadow={true}
+            innerPadding="1rem"
+            title={`
+              SECURITE
+              & DOMOTIQUE
+            `}
+            imageID={8}
+          />
+          <Card
+            useShadow={true}
+            innerPadding="1rem"
+            title={`
+              DEPANNAGE
+            `}
+            imageID={9}
+          />
+        </a>
         <Card
           innerPadding="0rem"
           titleColor="#325A70"

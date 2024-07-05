@@ -18,11 +18,12 @@ function Map({
           border:0,
           height:"100%",
           width:"60%",
-          filter:"saturate(0.6)"
+          filter:"saturate(0.6)",
+          outline:0,
         }}
         src={`
           https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11540.326002618267!2d7.223521!3d43.688069!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12cdd1cae0214469%3A0x50b53afd5335b863!2sAES06!5e0!3m2!1sen!2sfr!4v1720145777500!5m2!1sen!2sfr`}
-        loading={"lazy"}
+        loading={"eager"}
         referrerpolicy={"no-referrer-when-downgrade"}
       />
       <div

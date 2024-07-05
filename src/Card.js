@@ -80,7 +80,9 @@ function Card({
         <h3
           style={{
             filter: useShadow ? "drop-shadow(0 0 .5rem hsla(0,0%,0%,0.5))" : "",
-            color : titleColor
+            color : titleColor,
+            letterSpacing: '0.5rem',
+            lineHeight:'1.2'
           }}
           className="cardTitle fw-bolder"
         >{title}</h3>
