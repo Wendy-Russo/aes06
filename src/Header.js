@@ -25,7 +25,7 @@ function Header(){
             id="basic-navbar-nav "
             className='m-0 p-0'
           >
-            <Nav className="w-100 justify-content-between space-between">
+            <Nav className="w-100 justify-content-around fw-medium">
               <Nav.Link className='color-blue' href="#home">PARTENARIAT</Nav.Link>
               <NavDropdown className='color-blue' title="INSTALLATION" id="collapsible-nav-dropdown">
                 <NavDropdown.Item className='color-blue' href="#action/3.1">PARTICULIER</NavDropdown.Item>

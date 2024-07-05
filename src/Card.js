@@ -82,7 +82,7 @@ function Card({
             filter: useShadow ? "drop-shadow(0 0 .5rem hsla(0,0%,0%,0.5))" : "",
             color : titleColor
           }}
-          className="cardTitle"
+          className="cardTitle fw-bolder"
         >{title}</h3>
 
         {subTitle && <p

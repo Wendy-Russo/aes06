@@ -17,7 +17,7 @@ function Reviews({
           backgroundColor : "hsl(0,0%,90%)"
         }}
       >
-        <div className="w-100 m-auto d-flex flex-wrap gap-5 justify-content-center align-content-center py-4">
+        <div className="w-100 px-5 m-auto d-flex flex-wrap gap-5 justify-content-center align-content-center py-4">
           <div
             style={{
               width:"20%",
