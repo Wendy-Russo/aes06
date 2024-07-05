@@ -7,6 +7,7 @@ import Partners from "./Partners";
 import Qualifications from "./Qualifications";
 import Reviews from "./Reviews";
 import "@fontsource/poppins"; // Defaults to weight 400
+import "@fontsource/jost"; // Defaults to weight 400
 
 function App() {
   return (

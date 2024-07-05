@@ -114,6 +114,7 @@ function Qualifications({
           </p>
         </div>
         <div
+          className="border-start border-3 border-white ps-5"
           style={{
             minWidth:"30rem",
             gap:"2rem",
@@ -128,8 +129,7 @@ function Qualifications({
               height:"10rem",
               objectFit:"contain",
             }}
-            className="rounded-5"
-            src={require("./Ico/aes06_icone_qualifelec_big_bornes_de_recharge_alpes_maritimes.png")}
+            src={require("./logo/Qualifec.png")}
             alt=""
           />
           <p
